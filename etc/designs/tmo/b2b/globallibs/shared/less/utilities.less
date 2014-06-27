@@ -1,0 +1,48 @@
+@import "@{tmus}/globallibs/less/utilities.less";
+
+/*
+
+
+============================
+  B2B/utilities.less
+============================
+*/
+
+//accordion style
+.accordion {
+	li {
+		.detail {
+			display: none;
+			line-height: 1.2;
+		}
+		&.active {
+			.fa-plus-circle:before {
+				content: "\f056";
+			}
+			.detail {
+				display: block;
+			}
+		}
+	}
+}
+
+
+//fix color for Bootstrap-select
+.btn.selectpicker, btn.selectpicker:focus {
+	background-color: #fff;
+	color: #666;
+	border: 1px solid #ccc;
+	padding-left: 10px;
+	text-transform: inherit;
+}
+.open .btn.selectpicker {
+	background-color: #aaa;
+	color: #fff;
+	border: 1px solid #999;
+}
+
+
+//make the Bootstrap-select dropdown caret magenta.
+.bootstrap-select .btn-default > .caret {
+	color: @brand-primary;
+}

@@ -1,0 +1,217 @@
+/*
+
+
+============================
+  B2B/mobile.less
+============================
+*/
+
+@grid-gutter-width-ph: 10px;
+
+@media (max-width:@phone) {
+
+.container {
+	width: 100% !important;
+}
+
+
+/*set row margin*/
+.row {
+	margin-left: -(@grid-gutter-width-ph / 2);
+	margin-right: -(@grid-gutter-width-ph / 2);
+}
+/*set form group magin*/
+.form-horizontal .form-group {
+  margin-left: -(@grid-gutter-width-ph / 2);
+  margin-right: -(@grid-gutter-width-ph / 2);
+}
+
+/*add col with % value*/
+.col-xs-5p, .col-xs-10p, .col-xs-15p, .col-xs-20p, .col-xs-25p, .col-xs-30p, .col-xs-35p, .col-xs-40p, .col-xs-45p, .col-xs-50p, .col-xs-55p, .col-xs-60p, .col-xs-65p, .col-xs-70p, .col-xs-75p, .col-xs-80p, .col-xs-85p, .col-xs-90p, .col-xs-95p, .col-xs-100p,
+.col-sm-5p, .col-sm-10p, .col-sm-15p, .col-sm-20p, .col-sm-25p, .col-sm-30p, .col-sm-35p, .col-sm-40p, .col-sm-45p, .col-sm-50p, .col-sm-55p, .col-sm-60p, .col-sm-65p, .col-sm-70p, .col-sm-75p, .col-sm-80p, .col-sm-85p, .col-sm-90p, .col-sm-95p, .col-sm-100p,
+.col-md-5p, .col-md-10p, .col-md-15p, .col-md-20p, .col-md-25p, .col-md-30p, .col-md-35p, .col-md-40p, .col-md-45p, .col-md-50p, .col-md-55p, .col-md-60p, .col-md-65p, .col-md-70p, .col-md-75p, .col-md-80p, .col-md-85p, .col-md-90p, .col-md-95p, .col-md-100p,
+.col-lg-5p, .col-lg-10p, .col-lg-15p, .col-lg-20p, .col-lg-25p, .col-lg-30p, .col-lg-35p, .col-lg-40p, .col-lg-45p, .col-lg-50p, .col-lg-55p, .col-lg-60p, .col-lg-65p, .col-lg-70p, .col-lg-75p, .col-lg-80p, .col-lg-85p, .col-lg-90p, .col-lg-95p, .col-lg-100p {
+  position: relative;
+	padding-left: (@grid-gutter-width-ph / 2);
+  padding-right: (@grid-gutter-width-ph / 2);
+	float: none;
+	width: 100%;
+}
+
+.col-5p, .col-10p, .col-15p, .col-20p, .col-25p, .col-30p, .col-35p, .col-40p, .col-45p, .col-50p, .col-55p, .col-60p, .col-65p, .col-70p, .col-75p, .col-80p, .col-85p, .col-90p, .col-95p, .col-100p,
+.col-ph-5p, .col-ph-10p, .col-ph-15p, .col-ph-20p, .col-ph-25p, .col-ph-30p, .col-ph-35p, .col-ph-40p, .col-ph-45p, .col-ph-50p, .col-ph-55p, .col-ph-60p, .col-ph-65p, .col-ph-70p, .col-ph-75p, .col-ph-80p, .col-ph-85p, .col-ph-90p, .col-ph-95p, .col-ph-100p {
+	float: left;
+}
+
+
+/*grid system for phone*/
+.col-ph-1, .col-ph-2, .col-ph-3, .col-ph-4, .col-ph-5, .col-ph-6, .col-ph-7, .col-ph-8, .col-ph-9, .col-ph-10, .col-ph-11, .col-ph-12,
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: (@grid-gutter-width-ph / 2);
+  padding-right: (@grid-gutter-width-ph / 2);
+  float: none;
+	width: 100%;
+}
+
+.col-ph-1, .col-ph-2, .col-ph-3, .col-ph-4, .col-ph-5, .col-ph-6, .col-ph-7, .col-ph-8, .col-ph-9, .col-ph-10, .col-ph-11, .col-ph-12 {
+	float: left;
+}
+
+
+.col-ph-12 {
+  width: 100%;
+}
+.col-ph-11 {
+  width: 91.66666666666666%;
+}
+.col-ph-10 {
+  width: 83.33333333333334%;
+}
+.col-ph-9 {
+  width: 75%;
+}
+.col-ph-8 {
+  width: 66.66666666666666%;
+}
+.col-ph-7 {
+  width: 58.333333333333336%;
+}
+.col-ph-6 {
+  width: 50%;
+}
+.col-ph-5 {
+  width: 41.66666666666667%;
+}
+.col-ph-4 {
+  width: 33.33333333333333%;
+}
+.col-ph-3 {
+  width: 25%;
+}
+.col-ph-2 {
+  width: 16.666666666666664%;
+}
+.col-ph-1 {
+  width: 8.333333333333332%;
+}
+.col-ph-pull-12 {
+  right: 100%;
+}
+.col-ph-pull-11 {
+  right: 91.66666666666666%;
+}
+.col-ph-pull-10 {
+  right: 83.33333333333334%;
+}
+.col-ph-pull-9 {
+  right: 75%;
+}
+.col-ph-pull-8 {
+  right: 66.66666666666666%;
+}
+.col-ph-pull-7 {
+  right: 58.333333333333336%;
+}
+.col-ph-pull-6 {
+  right: 50%;
+}
+.col-ph-pull-5 {
+  right: 41.66666666666667%;
+}
+.col-ph-pull-4 {
+  right: 33.33333333333333%;
+}
+.col-ph-pull-3 {
+  right: 25%;
+}
+.col-ph-pull-2 {
+  right: 16.666666666666664%;
+}
+.col-ph-pull-1 {
+  right: 8.333333333333332%;
+}
+.col-ph-pull-0 {
+  right: 0%;
+}
+.col-ph-push-12 {
+  left: 100%;
+}
+.col-ph-push-11 {
+  left: 91.66666666666666%;
+}
+.col-ph-push-10 {
+  left: 83.33333333333334%;
+}
+.col-ph-push-9 {
+  left: 75%;
+}
+.col-ph-push-8 {
+  left: 66.66666666666666%;
+}
+.col-ph-push-7 {
+  left: 58.333333333333336%;
+}
+.col-ph-push-6 {
+  left: 50%;
+}
+.col-ph-push-5 {
+  left: 41.66666666666667%;
+}
+.col-ph-push-4 {
+  left: 33.33333333333333%;
+}
+.col-ph-push-3 {
+  left: 25%;
+}
+.col-ph-push-2 {
+  left: 16.666666666666664%;
+}
+.col-ph-push-1 {
+  left: 8.333333333333332%;
+}
+.col-ph-push-0 {
+  left: 0%;
+}
+.col-ph-offset-12 {
+  margin-left: 100%;
+}
+.col-ph-offset-11 {
+  margin-left: 91.66666666666666%;
+}
+.col-ph-offset-10 {
+  margin-left: 83.33333333333334%;
+}
+.col-ph-offset-9 {
+  margin-left: 75%;
+}
+.col-ph-offset-8 {
+  margin-left: 66.66666666666666%;
+}
+.col-ph-offset-7 {
+  margin-left: 58.333333333333336%;
+}
+.col-ph-offset-6 {
+  margin-left: 50%;
+}
+.col-ph-offset-5 {
+  margin-left: 41.66666666666667%;
+}
+.col-ph-offset-4 {
+  margin-left: 33.33333333333333%;
+}
+.col-ph-offset-3 {
+  margin-left: 25%;
+}
+.col-ph-offset-2 {
+  margin-left: 16.666666666666664%;
+}
+.col-ph-offset-1 {
+  margin-left: 8.333333333333332%;
+}
+.col-ph-offset-0 {
+  margin-left: 0%;
+}
+
+}

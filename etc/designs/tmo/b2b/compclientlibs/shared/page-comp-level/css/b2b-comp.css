@@ -1,0 +1,705 @@
+@charset "UTF-8";
+/*
+
+
+============================
+  B2B/home.css
+============================
+*/
+body {
+  background-color: #f5f5f5;
+}
+@media (max-width: 599px) {
+  body {
+    background-color: #fff;
+  }
+}
+footer {
+  position: relative;
+  min-height: 500px;
+  background-color: #dedede;
+  width: 100%;
+}
+main {
+  position: relative;
+  min-height: 500px;
+}
+/*background setup*/
+.background-dsk {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 100%;
+  height: 160%;
+  background-color: #f5f5f5;
+  background-image: url(../../../../globallibs/shared/img/bg-home.dsk.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}
+.background-mob {
+  background-image: url(../../../../globallibs/shared/img/bg-home.mob.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}
+@media (min-width: 600px) {
+  .background-mob {
+    background-color: transparent !important;
+    background-image: none !important;
+  }
+  .background-dsk {
+    background-position: center 50px;
+  }
+}
+@media (max-width: 599px) {
+  .background-dsk {
+    background-color: transparent !important;
+    background-image: none !important;
+  }
+}
+/*end background setup*/
+/*hero component*/
+.co_hero {
+  min-height: 200px;
+  background-color: #fff;
+}
+.co_hero .btn.learn-ore {
+  height: 60px;
+  padding: 0;
+  line-height: 58px;
+}
+@media (max-width: 599px) {
+  .co_hero {
+    min-height: 520px;
+    margin-top: 3px;
+  }
+  .co_hero .learn-more {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 90%;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 479px) {
+  .co_hero .learn-more {
+    margin-top: 85%;
+  }
+}
+@media (max-width: 350px) {
+  .co_hero .learn-more {
+    margin-top: 75%;
+  }
+}
+/*end hero component*/
+/*globe image position*/
+@media (min-width: 600px) and (max-width: 929px) {
+  .co_img-text-horizontal .img-globe {
+    padding-left: 35%;
+    padding-right: 35%;
+  }
+}
+/*end globe image position*/
+/*
+
+
+============================
+  B2B/byod.css
+============================
+*/
+.byod {
+  background-color: #f5f5f5;
+}
+.bg-hero-dsk {
+  background-image: url("../../../../globallibs/shared/img/bg-byod-hero.dsk.jpg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  -webkit-background-size: auto 100%;
+  background-size: auto 100%;
+  background-color: #ffffff;
+}
+@media (max-width: 599px) {
+  .bg-hero-dsk {
+    background-image: none;
+  }
+}
+/*
+
+
+============================
+  B2B/coverage.css
+============================
+*/
+/*
+
+
+============================
+  B2B/ledgen.css
+============================
+*/
+.ledgen.modal .modal-header {
+  border-bottom: none;
+}
+.ledgen.modal .fa-times-circle {
+  background: none;
+  border: 0 none;
+  cursor: pointer;
+  padding: 0;
+  float: right;
+}
+.ledgen.modal .modal-footer {
+  border-top: none;
+  margin-top: 0;
+  padding: 19px 20px 20px;
+  text-align: left;
+}
+.ledgen.modal .modal-body {
+  padding: 0 45px 50px;
+}
+.ledgen.modal .form-control {
+  color: #000000;
+}
+.ledgen.modal .form-control:focus {
+  border-color: #e20074;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(226, 0, 116, 0.075), 0 0 8px rgba(240, 187, 185, 0.6);
+  box-shadow: inset 0 1px 1px rgba(226, 0, 116, 0.075), 0 0 8px rgba(240, 187, 185, 0.6);
+}
+.ledgen.modal .form-horizontal .form-group {
+  margin: 0 0 10px 0;
+}
+.ledgen.modal .form-horizontal .form-group .input-sm {
+  border-radius: 5px;
+}
+.ledgen.modal .form-horizontal .form-group .control-label {
+  color: #6a6a6a;
+  font-weight: normal;
+}
+.ledgen.modal .error-box {
+  background: none repeat scroll 0 0 #FF0000;
+  border-radius: 5px 5px 5px 5px;
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 20px;
+}
+.ledgen.modal .error-box div {
+  font-size: 40px;
+}
+.ledgen.modal .error label {
+  color: #ff0000!important;
+}
+.ledgen.modal .error input {
+  border: 1px solid #ff0000;
+}
+.ledgen.modal .btn-default {
+  font-size: 16px;
+}
+.ledgen.modal .btn-default.disabled {
+  background-color: #C9C9C9;
+  border-color: #C9C9C9;
+}
+.back-link {
+  color: #6a6a6a;
+}
+@media (min-width: 600px) and (max-width: 767px) {
+  .ledgen.modal .modal-dialog {
+    width: 530px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 599px) {
+  .ledgen.modal .modal-body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+/* CSS for lets-talk-business-form.html  */
+.letstalk h3 {
+  font-size: 32px;
+}
+.letstalk h3 sup {
+  font-family: "Tele-GroteskNor";
+  font-size: 16px;
+  vertical-align: middle;
+}
+.letstalk-form .social-icon a {
+  display: inline-block;
+}
+.letstalk-form .form-group {
+  margin-left: 0;
+  margin-right: 0;
+}
+.letstalk-form .form-horizontal .form-group .control-label {
+  color: #6A6A6A;
+  font-weight: normal;
+  padding-top: 5px;
+}
+.letstalk-form .form-horizontal .form-control {
+  height: 32px;
+  line-height: 20px;
+  padding-top: 0;
+}
+.letstalk-form .bootstrap-select .btn.selectpicker {
+  padding-top: 0;
+  height: 32px;
+}
+.letstalk-form .bootstrap-select .btn.selectpicker > span {
+  line-height: 30px;
+  height: 32px;
+  font-size: 16px;
+}
+.letstalk-form .bootstrap-select .dropdown-menu > li {
+  font-size: 16px;
+}
+.letstalk-form .btn-default.disabled {
+  background-color: #C9C9C9;
+  border-color: #C9C9C9;
+}
+.letstalk-form .form-horizontal .form-group .input-sm {
+  border-radius: 5px 5px 5px 5px;
+}
+@media (max-width: 599px) {
+  .heading-letstalk {
+    font-size: 30px;
+    color: #000000;
+  }
+}
+/*
+
+
+============================
+  B2B/plans.css
+============================
+*/
+.bg-hero-dsk-plans {
+  background-image: url("../../../../globallibs/shared/img/bg-plans-man.dsk.png");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  -webkit-background-size: 55% auto;
+  background-size: 55% auto;
+}
+.bg-gray-lightest {
+  background: #f5f5f5;
+}
+@media (max-width: 767px) {
+  .bg-hero-dsk-plans {
+    background-image: none;
+  }
+}
+@media (min-width: 768px) {
+  .jump-img {
+    margin-top: 150px;
+  }
+}
+@media (min-width: 1200px) {
+  .bg-hero-dsk-plans {
+    -webkit-background-size: 45%;
+    background-size: 45%;
+  }
+}
+/*
+
+
+============================
+  B2B/whytmo.css
+============================
+*/
+/* carousel template starts */
+.whytmo {
+  width: 930px;
+  margin: 0 auto;
+}
+.whytmo .swipe {
+  cursor: move;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.whytmo .carousel-control {
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  margin-top: -25px;
+  border-radius: 25px;
+  background-color: #e20074;
+  background-image: none;
+  opacity: 1;
+}
+.whytmo .carousel-control > .fa {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.whytmo .carousel-control:hover {
+  opacity: 0.6;
+}
+.whytmo .fa.fa-angle-left,
+.whytmo .fa.fa-angle-right {
+  font-size: 50px;
+  margin-top: 0;
+  padding-top: 0;
+  line-height: 45px;
+}
+.whytmo .carousel-indicators {
+  display: block;
+  top: 25px;
+  width: 600px;
+  height: 70px;
+  border: 0;
+  overflow-x: hidden;
+  left: 112px;
+  margin-left: 0;
+  text-align: left;
+}
+.whytmo .carousel-indicators li {
+  text-indent: 0;
+  width: 95px;
+  height: 70px;
+  color: #e20074;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  background-color: transparent;
+  vertical-align: top;
+}
+.whytmo .carousel-indicators li > .text-center {
+  font-family: "Tele-GroteskUlt", sans-serif;
+  font-size: 12px;
+}
+.whytmo .carousel-indicators li.active {
+  color: #000;
+}
+.whytmo .carousel-inner {
+  width: 100%;
+  min-height: 500px;
+  left: 0;
+}
+.whytmo .carousel-control.left {
+  left: 5.3%;
+}
+.whytmo .carousel-control.right {
+  right: 35.5%;
+}
+/* carousel template ends */
+/*slides html starts*/
+.slideshow-holder {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+}
+.slideshow-holder > div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: transparent;
+}
+.slideshow-holder > .background {
+  -webkit-background-size: cover !important;
+  background-size: cover!important;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.slideshow-holder > .white-image {
+  left: -55px;
+  -webkit-background-size: auto 100% !important;
+  background-size: auto 100% !important;
+  background-repeat: no-repeat;
+  background-position: top right;
+  -webkit-animation-duration: 1.2s;
+  animation-duration: 1.2s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+.slideshow-holder .transparency {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 660px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.slideshow-holder .content {
+  padding-top: 100px;
+  background-color: transparent;
+  width: 660px;
+  padding-left: 125px;
+  padding-right: 125px;
+  -webkit-animation-duration: 1.6s;
+  animation-duration: 1.6s;
+}
+.slideshow-holder .content h1 {
+  color: #000;
+  font-size: 48px;
+}
+.slideshow-holder .landing {
+  padding-top: 90px;
+  background: #000;
+  padding-left: 120px;
+  padding-right: 275px;
+}
+.slideshow-holder .landing h1 {
+  font-size: 80px;
+}
+.slideshow-holder .content h6 {
+  font-size: 16px;
+}
+/*slides html ends*/
+@media (max-width: 929px) {
+  .whytmo {
+    width: 768px;
+  }
+  .slideshow-holder {
+    height: 535px;
+  }
+  .whytmo .carousel-indicators {
+    width: 450px;
+  }
+  .whytmo .carousel-control.left {
+    left: 5.3%;
+  }
+  .whytmo .carousel-control.right {
+    right: 30%;
+  }
+  .slideshow-holder .content,
+  .slideshow-holder .transparency {
+    width: 570px;
+    height: 535px !important;
+    padding-left: 125px;
+    padding-right: 95px;
+  }
+  .slideshow-holder a.btn {
+    width: 190px;
+  }
+  .slideshow-holder a.cta1:not(.no-btn) {
+    font-family: "Tele-GroteskNor", sans-serif;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal !important;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 20px;
+    line-height: 1.4;
+    border-radius: 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #e20074;
+    background-color: #ffffff;
+    border-color: #d9d9d9;
+    text-transform: uppercase;
+    height: 60px;
+    line-height: 45px;
+    width: 190px;
+  }
+  .slideshow-holder a.cta1:hover,
+  .slideshow-holder a.cta1:focus,
+  .slideshow-holder a.cta1:active {
+    color: #e20074;
+    background-color: #ebebeb;
+    border-color: #bababa;
+  }
+  .slideshow-holder a.cta1:not(.no-btn):after {
+    content: "";
+  }
+}
+@media (max-width: 767px) {
+  .whytmo {
+    width: 600px;
+  }
+  .slideshow-holder {
+    height: 595px;
+  }
+  .whytmo .carousel-control {
+    width: 40px;
+    height: 40px;
+    top: 93%;
+  }
+  .whytmo .fa.fa-angle-left,
+  .whytmo .fa.fa-angle-right {
+    font-size: 40px;
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 35px;
+  }
+  .whytmo .carousel-control.left {
+    left: 50%;
+  }
+  .whytmo .carousel-control.right {
+    left: 58%;
+  }
+  .whytmo .carousel-indicators {
+    left: 20px;
+  }
+  .whytmo .carousel-indicators li {
+    width: 85px;
+    margin-right: 5px;
+  }
+  .whytmo .carousel-indicators li .text-center {
+    font-size: 10px;
+  }
+  .slideshow-holder .content,
+  .slideshow-holder .transparency {
+    width: 400px;
+    height: 595px !important;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+  .slideshow-holder .landing {
+    padding-left: 30px;
+    padding-right: 200px;
+  }
+}
+/* carousel for 320 slide1 to slide5 */
+@media (max-width: 599px) {
+  .whytmo,
+  .slideshow-holder,
+  .slideshow-holder .landing,
+  .slideshow-holder .content,
+  .slideshow-holder .transparency,
+  .slideshow-holder .white-image,
+  .slideshow-holder .background {
+    left: 0;
+    width: 100%;
+    height: 530px !important;
+  }
+  .slideshow-holder .content {
+    padding-top: 25px;
+    padding-left: 20px;
+  }
+  .slideshow-holder > .white-image {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    -webkit-animation-duration: .6s;
+    animation-duration: .6s;
+  }
+  .slideshow-holder .transparency {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+  .slideshow-holder .content {
+    -webkit-animation-duration: 1.2s;
+    animation-duration: 1.2s;
+  }
+  .slideshow-holder .content h1 {
+    font-size: 30px;
+  }
+  .slideshow-holder p {
+    font-size: 20px;
+    line-height: 1;
+  }
+  .slideshow-holder a.cta1:not(.no-btn) {
+    height: 48px;
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: normal;
+  }
+  .slideshow-holder .btn-carosel-ph {
+    height: 48px;
+    font-size: 16px;
+    line-height: 45px;
+  }
+  .slideshow-holder .content h6 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #000;
+  }
+  .slideshow-holder .landing h1 {
+    font-size: 57px;
+  }
+  .slideshow-holder .landing {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+  }
+  .whytmo .carousel-control {
+    top: 500px;
+  }
+  .whytmo .carousel-control.left {
+    left: 20px;
+  }
+  .whytmo .carousel-control.right {
+    right: 20px;
+    left: auto;
+  }
+}
+@media (max-width: 479px) {
+  .whytmo,
+  .slideshow-holder,
+  .slideshow-holder .landing,
+  .slideshow-holder .content,
+  .slideshow-holder .transparency,
+  .slideshow-holder .white-image,
+  .slideshow-holder .background {
+    height: 630px !important;
+  }
+  .whytmo .carousel-control {
+    top: 600px;
+  }
+}
+/*
+
+
+============================
+  B2B/acct-services.css
+============================
+*/
+.account-services {
+  background-color: #f6f5f5;
+}
+.component-box {
+  background-color: #fff;
+  border: 1px solid #d4d4d4;
+  min-height: 100px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+.hero {
+  margin-top: 30px;
+}
+@media (max-width: 599px) {
+  .component-box {
+    border-left: none;
+    border-left: 0;
+    border-right: none;
+    border-right: 0;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0;
+  }
+}
+/*
+
+
+============================
+  B2B/dev-ui.css
+============================
+*
+* all front-end (UI) styles from app dev team
+*/
+/*
+
+
+============================
+  B2B/dev-backend.css
+============================
+*
+* all back-end (functional) styles from app dev team
+*/

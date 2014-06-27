@@ -1,0 +1,14 @@
+{
+  "name": "html5-forms",
+  "homepage": "https://github.com/zoltan-dulac/html5Forms.js",
+  "_release": "d390bb8971",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "d390bb89714a6c7eba09f9eb29660560e07d35cb"
+  },
+  "_source": "git://github.com/zoltan-dulac/html5Forms.js.git",
+  "_target": "*",
+  "_originalSource": "html5-forms",
+  "_direct": true
+}

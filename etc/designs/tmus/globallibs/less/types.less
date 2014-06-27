@@ -1,0 +1,71 @@
+/*
+
+
+============================
+  BASE/types.less
+============================
+*/
+
+
+.text-xx-small {
+	font-size: @font-size-base * 0.4;
+}
+.text-x-small {
+	font-size: @font-size-base * 0.6;
+}
+.text-small {
+	font-size: @font-size-base * 0.8;
+}
+.text-medium {
+	font-size: @font-size-base * 1.0;
+}
+.text-large {
+	font-size: @font-size-base * 1.2;
+}
+.text-x-large {
+	font-size: @font-size-base * 1.5;
+}
+.text-uppercase{
+  text-transform:uppercase;
+}
+.text-no-bold, .no-bold {
+	font-weight: normal !important;
+}
+.text-bold, .bold{
+	font-weight:bold !important;
+}
+.text-ellipsis {
+	text-overflow: ellipsis;
+}
+.text-overflow-clip {
+	text-overflow: clip;
+}
+.text-underline {
+  text-decoration: underline;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+.text-no-underline {
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
+}
+/*Links:*/
+.hover-underline {
+  &:link, &:visited, &:active {
+    text-decoration: none;
+  }
+  .ua-desktop &:hover {
+    text-decoration: underline;
+  }
+}
+.hover-no-underline {
+  &:link, &:visited, &:active {
+    text-decoration: underline;
+  }
+  .ua-desktop &:hover {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,41 @@
+/*
+
+
+============================
+  B2B/acct-services.css
+============================
+*/
+
+
+.account-services {
+	background-color: #f6f5f5;
+}
+
+.component-box {
+	background-color: #fff;
+	border: 1px solid #d4d4d4;
+	min-height: 100px;
+	margin-bottom: 30px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.hero {
+	margin-top: 30px;
+}
+
+@media (max-width:599px) {
+.component-box {
+	border-left: none;
+	border-left: 0;
+	border-right: none;
+	border-right: 0;
+	margin-left: -20px;
+	margin-right: -20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+}

@@ -1,0 +1,40 @@
+@import "@{tmus}/globallibs/less/variables.less";
+
+/*
+
+
+============================
+  B2B/variables.less
+============================
+*/
+
+@container-phone: 100%;  // (320px / 320px)
+@container-mini-tablet: 538;
+
+
+//media query breakpoints:
+@phone: ((@screen-xs - 1));
+@mini-tablet: @screen-xs;
+@tablet: @screen-sm;
+@desktop: @screen-md;
+@large-desktop: @screen-lg;
+
+
+
+@page-padding: 20px;
+
+@media (max-width:@phone) {
+	@page-padding: 20px;	
+}
+@media (min-width:@mini-tablet) {
+	@page-padding: 31px;	
+}
+@media (min-width:@tablet) {
+	@page-padding: 46px;
+}
+@media (min-width:@desktop) {
+	@page-padding: 56px;
+}
+@media (min-width:@large-desktop) {
+	@page-padding: 64px;
+}

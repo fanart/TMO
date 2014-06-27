@@ -1,0 +1,108 @@
+@import "@{tmus}/globallibs/less/types.less";
+
+/*
+
+
+============================
+  B2B/types.less
+============================
+*/
+
+body {
+	font-family: @font-family-sans-serif;
+	font-size: @font-size-base;
+	font-weight: 100;
+	.color-gray;
+	line-height: 1.2;
+}
+
+h1, h3, h5, h6 {
+	font-family: @headings-font-family;
+	line-height: 1;
+	margin-top: 0;
+	font-weight: normal;
+}
+h2, h4 {
+	font-family: @font-family-sans-serif;
+	line-height: 1;
+	margin-top: 0;
+	font-weight: normal;
+}
+h1 {
+	.color-primary;
+	font-size: @font-size-base * 2.85;  //57px
+	@media (max-width:@phone) {
+		font-size: floor(@font-size-base * 2); // ~40px //;
+	}
+}
+h2 {
+	color: #9b9b9b;
+	font-size: @font-size-base * 2.1;  //42px
+	@media (max-width:767px) {
+		font-size: floor(@font-size-base * 1.7); // 34px
+	}
+}
+h3, h4 {
+	.color-success;
+	font-size: @font-size-base * 1.5; //30px
+}
+h5, .subhead1 {
+	font-family: @font-family-sans-serif;
+	font-size: @font-size-base * 1.2; //24px
+	.color-success;
+}
+h6, .subhead2 {
+	font-family: @font-family-sans-serif;
+	font-size: @font-size-base * 1.1; //22px
+	line-height: 1;
+}
+.subhead3 {
+	font-size: @font-size-base * 0.9; //18px
+	text-transform: uppercase;
+	.color-primary;
+	line-height: 1;
+}
+.subhead4 {
+	font-size: @font-size-base * 0.9; //18px
+	text-transform: uppercase;
+	.color-gray;
+	line-height: 1;
+}
+.subhead5 {
+	font-size: @font-size-base * 0.7; //14px
+	line-height: 1;
+}
+.small {
+	font-size: @font-size-base * 0.7; //14px
+}
+.cta1, .cta2 {
+	font-family: @headings-font-family;
+	font-size: @font-size-base * 0.8; //16px
+	.color-primary;
+}
+.cta1:after {
+	content: url(../img/caret-right.png);
+	display: inline-block;
+	width: 12px;
+	height: 14px;
+	margin-left: 5px;
+	padding-top: 1px;
+
+}
+.cta1.no-caret:after {
+	content:"";
+}
+.cta2 {
+	font-family: @font-family-sans-serif;
+}
+.legal {
+	font-size: @font-size-base * 0.7; //14px
+}
+a:hover, button:hover {
+	text-decoration: none;
+}
+
+/*fixing hover color on accordion from mobile device*/
+.ua-mobile .accordion li a:hover {
+	color: @brand-primary !important;
+}

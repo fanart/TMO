@@ -1,0 +1,148 @@
+/*
+
+
+============================
+  B2B/ledgen.css
+============================
+*/
+
+.ledgen.modal .modal-header{
+	border-bottom: none;
+}
+.ledgen.modal .fa-times-circle {
+    background: none;
+    border: 0 none;
+    cursor: pointer;
+    padding: 0;
+    float: right;
+}
+.ledgen.modal .modal-footer {
+    border-top: none;
+    margin-top: 0;
+    padding: 19px 20px 20px;
+    text-align: left;
+}
+.ledgen.modal .modal-body {
+    padding: 0 45px 50px;
+}
+
+.ledgen.modal .form-control{
+	color: #000000;
+}
+
+.ledgen.modal .form-control:focus {
+  border-color: #e20074;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(226,0,116,.075), 0 0 8px rgba(240, 187, 185, 0.6);
+  box-shadow: inset 0 1px 1px rgba(226,0,116,.075), 0 0 8px rgba(240, 187, 185, 0.6);
+}
+.ledgen.modal .form-horizontal .form-group {
+	margin: 0 0 10px 0;
+}
+.ledgen.modal .form-horizontal .form-group .input-sm{
+	border-radius: 5px;
+}
+.ledgen.modal .form-horizontal .form-group .control-label{
+	color: #6a6a6a;
+	font-weight: normal;
+}
+
+.ledgen.modal .error-box {
+    background: none repeat scroll 0 0 #FF0000;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 20px;
+}
+.ledgen.modal .error-box div{
+	font-size: 40px;
+}
+
+.ledgen.modal .error label{
+	color: #ff0000!important;
+}
+
+.ledgen.modal .error input {
+ border:1px solid #ff0000;
+}
+.ledgen.modal .btn-default{
+	font-size: 16px;
+}
+.ledgen.modal .btn-default.disabled {
+    background-color: #C9C9C9;
+    border-color: #C9C9C9;
+}
+.back-link {
+  color: #6a6a6a;
+}
+
+@media (min-width:600px) and (max-width:767px) {
+.ledgen.modal .modal-dialog {
+	width: 530px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+}
+
+@media (max-width:599px) {
+.ledgen.modal .modal-body {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+}
+
+/* CSS for lets-talk-business-form.html  */
+
+.letstalk h3 {
+	font-size: 32px;
+}
+.letstalk h3 sup {
+	font-family: "Tele-GroteskNor";
+	font-size: 16px;
+	vertical-align: middle;
+}
+.letstalk-form .social-icon a{
+  display: inline-block;
+}
+.letstalk-form .form-group{
+  margin-left: 0;
+  margin-right: 0;
+}
+.letstalk-form .form-horizontal .form-group .control-label {
+    color: #6A6A6A;
+    font-weight: normal;
+    padding-top: 5px;
+}
+.letstalk-form .form-horizontal .form-control {
+	height: 32px;
+	line-height: 20px;
+	padding-top: 0;
+}
+.letstalk-form .bootstrap-select .btn.selectpicker {
+	padding-top: 0;
+	height: 32px;
+}
+.letstalk-form .bootstrap-select .btn.selectpicker > span {
+	line-height: 30px;
+	height: 32px;
+	font-size: 16px;
+}
+.letstalk-form .bootstrap-select .dropdown-menu > li  {
+	font-size: 16px;
+}
+.letstalk-form .btn-default.disabled {
+    background-color: #C9C9C9;
+    border-color: #C9C9C9;
+}
+.letstalk-form .form-horizontal .form-group .input-sm {
+    border-radius: 5px 5px 5px 5px;
+}
+
+@media (max-width:599px) {
+.heading-letstalk{
+ font-size: 30px;
+ color:#000000; 
+}
+}

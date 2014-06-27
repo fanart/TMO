@@ -1,0 +1,23 @@
+/*
+
+
+============================
+  B2B/byod.css
+============================
+*/
+.byod {
+	background-color: #f5f5f5;
+}
+
+.bg-hero-dsk{
+	background-image: url("../../../../globallibs/shared/img/bg-byod-hero.dsk.jpg");
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-color: #ffffff;
+}
+@media (max-width:599px) {
+.bg-hero-dsk {
+	background-image: none;
+}
+}
